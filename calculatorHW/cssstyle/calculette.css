@@ -1,0 +1,53 @@
+#table {
+  position: relative;
+  width: 97vw;
+  height: 97vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: bold 14px;
+}
+
+body {
+  font-family: 'Nanum Pen Script', cursive;
+  background: url(https://popdaily.com/my/wp-content/uploads/2021/07/5s1tvewyk0kc4gcsssssc8o88qx021o.png) no-repeat center/cover;
+}
+
+table {
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  background: url(https://media.karousell.com/media/photos/products/2020/10/26/___wallpaper_1603690426_2305b385_progressive.jpg) no-repeat center/cover;
+}
+
+td {
+  width: 50px;
+  border-radius: 5px;
+}
+
+.zero {
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+
+td:hover{
+  background: #5797ff80;
+	box-shadow: 0px 4px #546fd3;
+	color: white;
+}
